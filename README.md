@@ -52,7 +52,7 @@ $ mongoimport --db student-mgmt-sys --collection users --file users.json
 ![Director Dashboard](screenshots/admin_dashboard.png)
 
 ### Manage Courses
-![Manage Courses](screenshots/manage_courses.png)
+![Manage Courses](screenshots/manage_course.png)
 
 ### Manage Staff
 ![Manage Staff](screenshots/manage_staff.png)
