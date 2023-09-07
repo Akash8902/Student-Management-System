@@ -1,53 +1,88 @@
-# Student Management Sytem
- Note:- This is my ongoing project, so it's not complete yet.
+# IIITG PORTAL
 
-A Full Stack Web Application built with Node.js, Express.js, MongoDB and Bootstrap for managing all the tasks and activities of a student within an Institution.
+**IIITG PORTAL** is a web-based student management system built with Node.js, Express.js and MongoDB which is designed to cater to the needs of Directors, Teachers, Students, and Office Staff within an educational institution.
 
-# Modules
+## Features
 
-  - A powerful Login and Authentication System - Role based authentication and authorization.
-  - Student Details – Displays the details of all the students, and provides following services:
-        a. Adding a new student.
-        b. Editing / Modifying the data of an existing student.
-        c. Deleting / Removing the data of an existing student.
+### Director
+- View details of staff and students.
+- Manage courses and staff.
+- Address complaints.
 
-  - Course Details – Lis the details of all the courses available in the institution, and provides following services:
-        a. Adding a new course.
-        b. Editing an existing course.
-        c. Deleting a course.
-  - Fee Details.
-  - Marks and Grades.
-  - Attendance.
+### Teacher
+- Add and manage student results.
+- Take attendance.
 
-### Technology Stack Used
+### Student
+- View attendance records.
+- Check results.
+- Raise complaints.
 
-This project uses a number of open source tools, technologies and frameworks to work properly:
+## Getting Started
 
-* [Visual Studio Code](https://code.visualstudio.com) - A code editor redefined and optimized for building and debugging modern web and cloud applications. 
-* [Twitter Bootstrap](https://www.getbootstrap.com) - Great UI boilerplate for modern web apps.
-* [node.js](https://www.nodejs.org) - Evented I/O for the backend. Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-* [Express](https://www.expressjs.com) - Express is a minimal and flexible Node.js web application framework.
-* [Html, CSS, JavaScript](#)
-* [MongoDB](https://www.mongodb.com)
+To set up the **IIITG PORTAL** system, follow these steps:
 
-### Installation
+1. **Clone or Download:** Begin by cloning this repository to your local machine or downloading the project's source code.
 
-This project requires [Node.js](https://nodejs.org/) v10+ to run.
+2. **Install Dependencies:** Open a command prompt within the project folder and run the command `npm install` to install the necessary dependencies. You can also use `npm update` if needed.
 
-Install the dependencies and devDependencies and start the server.
-
+3. **Start the Server:** Run the following command to start the server:
 ```sh
 $ cd student-management-system
-$ npm install -d
+$ npm install
 $ nodemon
 ```
 
+## Import User Data
 
+To populate the **IIITG PORTAL** system with user data, you can use the following command to import user information into the local MongoDB server:
 
-### Todos
-
- - Import the users.json file to the local MongoDB server.
- ```sh
+```sh
 $ mongoimport --db student-mgmt-sys --collection users --file users.json
 ```
- - And run the application in the development mode.
+
+# Screenshots
+
+### Login
+![Login](screenshots/login.png)
+
+## Director
+
+### Dashboard
+![Director Dashboard](screenshots/admin_dashboard.png)
+
+### Manage Courses
+![Manage Courses](screenshots/manage_courses.png)
+
+### Manage Staff
+![Manage Staff](screenshots/manage_staff.png)
+
+### Manage Course
+![Manage Staff](screenshots/manage_course.png)
+
+### Complaints
+![Complaints](screenshots/complaints.png)
+
+## Teacher
+
+### Dashboard
+![Teacher Dashboard](screenshots/faculty_dashboard.png)
+
+### Take Attendance
+![Take Attendance](screenshots/take_attendence.png)
+
+### Add Result
+![Add Result](screenshots/add_result.png)
+
+## Student
+
+### Dashboard
+![Student Dashboard](screenshots/student_dashboard.png)
+
+### View Result
+![View Result](screenshots/view_result.png)
+
+### View Attendance
+![View Attendance](screenshots/attendence.png)
+
+
