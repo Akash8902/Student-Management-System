@@ -57,9 +57,6 @@ $ mongoimport --db student-mgmt-sys --collection users --file users.json
 ### Manage Staff
 ![Manage Staff](screenshots/manage_staff.png)
 
-### Manage Course
-![Manage Staff](screenshots/manage_course.png)
-
 ### Complaints
 ![Complaints](screenshots/complaints.png)
 
